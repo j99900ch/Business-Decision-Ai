@@ -1,0 +1,57 @@
+﻿# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test/cache files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local/private RAG material
+test_private_rag_files/
+
+# Local databases / indexes
+*.db
+*.sqlite
+*.sqlite3
+*.faiss
+*.pkl
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local development backups
+app_backup_*.py
+app_before_*.py
+app_ui_backup_*.py
+
+# Local/private company data
+data/companies/TATA_PVT_LTD/
+data/test_uploads/
+
+# Development backups
+ai/*_backup.py
